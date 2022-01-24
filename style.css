@@ -1,0 +1,585 @@
+.navbar
+{
+  margin-left: 10%;
+  margin-right: 10%;
+       
+}
+
+.center1
+{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+   margin-left: 20%;
+   margin-top: 50px;
+}
+ 
+ 
+.nav-item
+{
+margin-top: 16px;
+margin-right: 2px;
+
+}
+
+.nav-pills .nav-link.active {
+  background-color: #f09c00 !important;
+   
+}
+
+.nav-pills   .nav-link:not(.active) {
+   color: #636363;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #f09c00 !important;
+}
+
+.necessityd
+{
+    margin-top: 1%; 
+    margin-left: 10%;
+  margin-right: 10%;
+}
+
+.necc2
+{
+  display: none;
+}
+
+
+
+
+html {
+  
+  scroll-behavior: smooth;
+}
+
+ 
+body nav {
+  position: sticky;
+  top: 0;
+}
+ 
+.hovericon
+{
+   color: coral;
+}
+
+ 
+#fonty
+{
+  font-family: 'Josefin Sans', sans-serif;   
+  color: #383838da;
+}
+
+#fontyd
+{
+  font-family: Cinzel, serif; font-weight: 550;
+  color: #666666;
+}
+
+#onhover
+{
+   width:70%; margin-top:10px; background: #eee; box-shadow: 0 8px 8px -4px rgb(167, 167, 167);  padding-bottom: auto; 
+}
+
+#onhover:hover {
+  width:80%; height:100%; margin-top:10px;   background: rgb(243, 243, 243); box-shadow: 5px 8px 10px -2px rgb(71, 71, 71);  padding-bottom: auto;
+  
+}
+
+#onhover:hover  .hovericon{
+   
+  color: 	#6e6e6e;
+}
+
+
+
+.mapfont
+{
+  font-family: 'Josefin Sans', sans-serif;   
+  color: #000000da;
+}
+
+.icnclr
+{
+   color: #ea4335; 
+}
+#maps
+{
+  
+   
+  margin-left:4% ;
+  margin-right: -4%;   
+  
+}
+
+#maps2
+{
+   margin-left: -4%; 
+}
+
+#contactusform
+{
+  margin-left: -10%;
+}
+
+#getintouch
+{
+  margin-top: 0;
+}
+
+#gettbt1
+{
+   margin-left: 25%;  
+}
+#gettbt2
+{
+  margin-left: 0%;  
+}
+
+
+@media (min-width: 1400px)
+{
+
+ 
+
+
+  #gettbt1
+{
+   margin-left: 50%;  
+}
+#gettbt2
+{
+  margin-left: 0;  
+}
+  
+}
+
+
+@media (min-width: 1200px)
+{
+  #gettbt1
+{
+   margin-left: 40%;  
+}
+#gettbt2
+{
+  margin-left: 0;  
+}
+  
+}
+
+#container1
+{
+  margin-top: 13vh;
+}
+
+#container2
+{
+  margin-top: 17vh;
+}
+
+
+#simplewords
+{
+  margin-top: -35%; 
+  margin-left: -3%;
+}
+
+@media (max-width: 991px)
+{
+
+  #simplewords
+  {
+    margin-top: 0%; 
+    margin-left: -3%;
+  }
+
+
+  #contactusform
+  {
+    margin-left: 0;
+  }
+
+  #container1
+{
+  margin-top: 55vh;
+}
+
+#container2
+{
+  margin-top: 70vh;
+}
+
+
+  #maps
+  {
+     
+    margin-left: 10% ;
+    width: 85%;  
+  }
+  
+  #maps2
+{
+  
+   margin-top: 10%;
+  margin-left:7% ;
+  height: 450px;
+  width: 85%;  
+  
+}
+   
+
+
+#getintouch
+{
+  margin-top: 150px;
+}
+
+
+#gettbt1
+{
+   margin-left: 35%;  
+    
+}
+#gettbt2
+{
+  margin-left: 32%;  
+}
+
+}
+
+
+
+
+
+#getintouchfont
+{
+  font-size: 23px;
+  font-weight: 1px; 
+  color:#4b4c4d;
+  opacity: 0.9;
+}
+
+@media (max-width: 769px)
+{
+  #getintouchfont
+  {
+    font-size: 3vw; 
+    
+  }
+  
+}
+
+
+/* foooter */
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:14px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+
+
+/* footer */
+
+/* products page */
+
+
+.linktextd
+{
+  color: 		#3c3c3c;
+  text-decoration: none;
+}
+
+#colm
+{
+  margin-bottom: 3%;
+  color: 		#3c3c3c;	
+}
+#colm:hover 
+{
+  
+  color: 	#aca9a9;
+  
+}
+
+#colm:hover  .linktextd
+{
+  
+  color: 	#aca9a9;
+  text-decoration: none;
+  
+}
+
+
+#crousalpdng
+{
+
+  padding-bottom: 40%; 
+   
+}
+
+
+
+@media (max-width: 500px)
+{
+
+
+.nav-item
+{
+margin-top: 16px;
+margin-right: 40%;
+
+}
+
+
+}
+
+@media (max-width: 300px)
+{
+
+
+.nav-item
+{
+margin-top: 16px;
+margin-right: 20%;
+
+}
+
+
+}
+
+#aboutuspic
+{
+  margin-left: 4%;
+  margin-right: -4%;
+}
+
+@media (max-width: 990px)
+{
+
+  #aboutuspic
+{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+  #crousalpdng
+  {
+  
+    padding-bottom: 60%; 
+    padding-top: 13%; 
+     
+  }
+  
+
+
+
+  #colm
+  {
+    margin-bottom: 10%;
+    
+  }
+}
+
+#opctcng
+{
+   opacity: 1; 
+}
+
+#opctcng:hover {
+  width:90%; height:90%; 
+  opacity: 0.7;   
+   
+  
+}
+
+ 
+
+
+   
+ 
+#productbody
+{
+  font-family: 'Josefin Sans', sans-serif;   
+  color: 	#444444;
+}
+
+
+#producttitle
+{
+  font-size:60px; 
+}
+
+@media (max-width: 400px)
+{
+#producttitle  {
+  font-size:40px;    
+  
+}
+
+}
+
+
+
+ 
+  
+.buttons22 {
+  
+ margin-top: 10px;
+}
+
+.container22 {
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+   
+   
+  width: 240px;
+}
+
+ 
+ 
+
+
+.btn22 {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.btn22:hover {
+  text-decoration: none;
+}
+
+/*btn_background*/
+.effect01 {
+  color: #FFF;
+  border: 4px solid #000;
+  box-shadow:0px 0px 0px 1px #000 inset;
+  background-color: #000;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.effect01:hover {
+  border: 4px solid #666;
+  background-color: #FFF;
+  box-shadow:0px 0px 0px 4px #EEE inset;
+}
+
+/*btn_text*/
+.effect01 span {
+  transition: all 0.2s ease-out;
+  z-index: 2;
+}
+.effect01:hover span{
+  letter-spacing: 0.13em;
+  color: #333;
+}
+
+/*highlight*/
+.effect01:after {
+  background: #FFF;
+  border: 0px solid #000;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .8;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  width: 50px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+  z-index: 1;
+}
+.effect01:hover:after {
+  background: #FFF;
+  border: 20px solid #000;
+  opacity: 0;
+  left: 120%;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
